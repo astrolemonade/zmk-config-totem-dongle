@@ -85,26 +85,5 @@
                                       &none                &none              &none          &none      &none              &none
             >;
         };
-
-        Fun {
-            label = "Fun";
-            bindings = <
-        &bootloader  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                             &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        Gaming {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-
-            label = "Gaming";
-        };
     };
 };
