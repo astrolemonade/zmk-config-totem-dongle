@@ -10,18 +10,18 @@ layers:
   - L
   - U
   - Y
-  - ;
+  - {t: ;, s: ':'}
   - {t: A, h: LGUI}
-  - {t: R, h: LALT}
-  - {t: S, h: LCTRL}
-  - {t: T, h: LSHIFT}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - M
-  - {t: N, h: LSHIFT}
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: E, h: LEFT CONTROL}
   - {t: I, h: LEFT ALT}
   - {t: O, h: LEFT GUI}
-  - '`'
+  - {t: '`', s: '~'}
   - Z
   - X
   - C
@@ -29,42 +29,42 @@ layers:
   - V
   - K
   - H
-  - ','
-  - .
-  - /
-  - ''''
-  - DELETE
-  - {t: TAB, h: '2'}
-  - SPACE
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - <
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:keyboard-tab$$', h: '2'}
+  - $$mdi:keyboard-space$$
   - RET
   - {t: ESCAPE, h: '4'}
-  - BACKSPACE
+  - {t: '$$mdi:backspace$$', type: backspace}
   '2':
-  - ''
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - UP ARROW
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '{'
   - '}'
   - '7'
   - '8'
   - '9'
   - '0'
-  - ''
-  - LEFT
-  - DOWN
-  - RIGHT
-  - '['
-  - ']'
-  - {t: '4', h: LSHIFT}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: '4', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '5', h: LEFT CONTROL}
   - {t: '6', h: LEFT ALT}
-  - {t: '-', h: LEFT GUI}
+  - {t: '-', h: LEFT GUI, s: _}
   - VOLUME DOWN
   - VOLUME UP
   - PREVIOUS
   - Sft+ PLAY PAUSE
-  - NEXT
+  - $$mdi:skip-next$$
   - (
   - )
   - '1'
@@ -72,12 +72,12 @@ layers:
   - '3'
   - KP MULTIPLY
   - +
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
-  - ''
-  - ''
-  - .
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ., s: '>'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   '4':
   - '!'
   - '@'
@@ -87,7 +87,7 @@ layers:
   - ^
   - '&'
   - KP ASTERISK
-  - ''''
+  - {t: '''', s: '"'}
   - '"'
   - {t: F2, h: LGUI}
   - {t: F3, h: LEFT ALT}
@@ -100,20 +100,20 @@ layers:
   - {t: F10, h: LEFT ALT}
   - {t: F11, h: LEFT GUI}
   - F1
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F12
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
-  - ''
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
