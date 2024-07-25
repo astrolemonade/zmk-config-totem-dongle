@@ -1,0 +1,119 @@
+layout: {qmk_keyboard: totem}
+layers:
+  '0':
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - {t: A, h: LGUI}
+  - {t: R, h: LALT}
+  - {t: S, h: LCTRL}
+  - {t: T, h: LSHIFT}
+  - G
+  - M
+  - {t: N, h: LSHIFT}
+  - {t: E, h: LEFT CONTROL}
+  - {t: I, h: LEFT ALT}
+  - {t: O, h: LEFT GUI}
+  - '`'
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - ','
+  - .
+  - /
+  - ''''
+  - DELETE
+  - {t: TAB, h: '2'}
+  - SPACE
+  - RET
+  - {t: ESCAPE, h: '4'}
+  - BACKSPACE
+  '2':
+  - ''
+  - ''
+  - UP ARROW
+  - ''
+  - '{'
+  - '}'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - LEFT
+  - DOWN
+  - RIGHT
+  - '['
+  - ']'
+  - {t: '4', h: LSHIFT}
+  - {t: '5', h: LEFT CONTROL}
+  - {t: '6', h: LEFT ALT}
+  - {t: '-', h: LEFT GUI}
+  - VOLUME DOWN
+  - VOLUME UP
+  - PREVIOUS
+  - Sft+ PLAY PAUSE
+  - NEXT
+  - (
+  - )
+  - '1'
+  - '2'
+  - '3'
+  - KP MULTIPLY
+  - +
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - .
+  - ''
+  '4':
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - KP ASTERISK
+  - ''''
+  - '"'
+  - {t: F2, h: LGUI}
+  - {t: F3, h: LEFT ALT}
+  - {t: F4, h: LEFT CONTROL}
+  - {t: F5, h: LEFT SHIFT}
+  - F6
+  - F7
+  - {t: F8, h: LEFT SHIFT}
+  - {t: F9, h: LEFT CONTROL}
+  - {t: F10, h: LEFT ALT}
+  - {t: F11, h: LEFT GUI}
+  - F1
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F12
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
