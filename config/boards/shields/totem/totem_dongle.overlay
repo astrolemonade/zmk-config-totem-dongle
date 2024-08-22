@@ -6,7 +6,7 @@
 
  #include "totem.dtsi"
 
-/{
+ / {
     chosen {
         zmk,kscan = &mock_kscan;
         zephyr,display = &oled;
