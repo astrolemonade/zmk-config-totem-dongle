@@ -11,6 +11,7 @@ manifest:
       import: app/west.yml
     - name: zmk-dongle-display-091-oled 
       remote: astrolemonade
-      revision: main
+      #revision: main
+      revision: fix-battery-positioning
   self:
     path: config
