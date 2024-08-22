@@ -35,4 +35,4 @@
         output-low;
         line-name = "Fast Battery Charge";
     };
-}
+};
