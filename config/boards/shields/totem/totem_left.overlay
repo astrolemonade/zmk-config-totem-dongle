@@ -15,3 +15,12 @@
          , <&xiao_d 8 GPIO_ACTIVE_HIGH>
          ;
  };
+
+&gpio0 {
+    fastbatcharge: fast-battery-charge {
+        gpio-hog;
+        gpios = <13 GPIO_ACTIVE_HIGH>;
+        output-low;
+        line-name = "Fast Battery Charge";
+    };
+}
