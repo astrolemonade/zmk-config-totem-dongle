@@ -1,10 +1,5 @@
-/*
- * Copyright (c) 2022 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
-
 #include "totem.dtsi"
+#include "fastbatcharge.dtsi"
 
 &default_transform {
     col-offset = <5>;
@@ -12,7 +7,7 @@
 
 &kscan0 {
     compatible = "zmk,kscan-gpio-matrix";
-    label = "KSCAN";
+    label = "RIGHT_KSCAN";
     col-gpios
         = <&xiao_d 8 GPIO_ACTIVE_HIGH>
         , <&xiao_d 9 GPIO_ACTIVE_HIGH>
@@ -20,19 +15,4 @@
         , <&xiao_d 5 GPIO_ACTIVE_HIGH>
         , <&xiao_d 4 GPIO_ACTIVE_HIGH>
         ;
-    row-gpios
-        = <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-        , <&xiao_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-        , <&xiao_d 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-        , <&xiao_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-        ;
-};
-
-&gpio0 {
-    fastbatcharge: fast-battery-charge {
-        gpio-hog;
-        gpios = <13 GPIO_ACTIVE_HIGH>;
-        output-low;
-        line-name = "Fast Battery Charge";
-    };
 };
