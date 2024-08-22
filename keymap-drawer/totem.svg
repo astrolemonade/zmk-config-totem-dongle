@@ -383,7 +383,7 @@ path.combo {
 }
 </style>
 <g transform="translate(0, 0)" class="layer-0">
-<text x="0" y="0" class="label">0</text>
+<text x="0" y="0" class="label" id="x_x">0</text>
 <g transform="translate(0, 0)">
 <g transform="translate(104, 162) rotate(-10.0)" class="key keypos-0">
 <rect rx="4" ry="4" x="-41" y="-38" width="82" height="77" class="key"/>
@@ -533,8 +533,9 @@ path.combo {
 <g transform="translate(451, 350) rotate(15.0)" class="key keypos-33">
 <rect rx="4" ry="4" x="-41" y="-38" width="82" height="77" class="key"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:keyboard-tab"/>
-<text x="0" y="34" class="key hold">2</text>
-</g>
+<a href="#x_x">
+<text x="0" y="34" class="key hold layer-activator">2</text>
+</a></g>
 <g transform="translate(538, 386) rotate(30.0)" class="key keypos-34">
 <rect rx="4" ry="4" x="-41" y="-38" width="82" height="77" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:keyboard-space"/>
@@ -546,8 +547,9 @@ path.combo {
 <g transform="translate(752, 350) rotate(-15.0)" class="key keypos-36">
 <rect rx="4" ry="4" x="-41" y="-38" width="82" height="77" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 83%">ESCAPE</tspan></text>
-<text x="0" y="34" class="key hold">4</text>
-</g>
+<a href="#x_x">
+<text x="0" y="34" class="key hold layer-activator">4</text>
+</a></g>
 <g transform="translate(845, 337)" class="key backspace keypos-37">
 <rect rx="4" ry="4" x="-41" y="-38" width="82" height="77" class="key backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-13" y="-13" height="26" width="26.0" class="key backspace tap glyph mdi:backspace"/>
@@ -555,7 +557,7 @@ path.combo {
 </g>
 </g>
 <g transform="translate(0, 442)" class="layer-2">
-<text x="0" y="0" class="label">2</text>
+<text x="0" y="0" class="label" id="x_x">2</text>
 <g transform="translate(0, 0)">
 <g transform="translate(104, 162) rotate(-10.0)" class="key none keypos-0">
 <rect rx="4" ry="4" x="-41" y="-38" width="82" height="77" class="key none"/>
@@ -597,8 +599,9 @@ path.combo {
 </g>
 <g transform="translate(1098, 162) rotate(10.0)" class="key keypos-9">
 <rect rx="4" ry="4" x="-41" y="-38" width="82" height="77" class="key"/>
-<text x="0" y="0" class="key tap">0</text>
-</g>
+<a href="#x_x">
+<text x="0" y="0" class="key tap layer-activator">0</text>
+</a></g>
 <g transform="translate(118, 240) rotate(-10.0)" class="key none keypos-10">
 <rect rx="4" ry="4" x="-41" y="-38" width="82" height="77" class="key none"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-13" y="-13" height="26" width="26.0" class="key none tap glyph mdi:minus-circle-outline"/>
@@ -627,8 +630,9 @@ path.combo {
 </g>
 <g transform="translate(822, 160)" class="key keypos-16">
 <rect rx="4" ry="4" x="-41" y="-38" width="82" height="77" class="key"/>
-<text x="0" y="0" class="key tap">4</text>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-shift"/>
+<a href="#x_x">
+<text x="0" y="0" class="key tap layer-activator">4</text>
+</a><use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-9" y="16" height="18" width="18.0" class="key hold glyph mdi:apple-keyboard-shift"/>
 </g>
 <g transform="translate(906, 120)" class="key keypos-17">
 <rect rx="4" ry="4" x="-41" y="-38" width="82" height="77" class="key"/>
@@ -687,8 +691,9 @@ path.combo {
 </g>
 <g transform="translate(906, 200)" class="key keypos-28">
 <rect rx="4" ry="4" x="-41" y="-38" width="82" height="77" class="key"/>
-<text x="0" y="0" class="key tap">2</text>
-</g>
+<a href="#x_x">
+<text x="0" y="0" class="key tap layer-activator">2</text>
+</a></g>
 <g transform="translate(992, 248) rotate(4.0)" class="key keypos-29">
 <rect rx="4" ry="4" x="-41" y="-38" width="82" height="77" class="key"/>
 <text x="0" y="0" class="key tap">3</text>
@@ -730,7 +735,7 @@ path.combo {
 </g>
 </g>
 <g transform="translate(0, 884)" class="layer-4">
-<text x="0" y="0" class="label">4</text>
+<text x="0" y="0" class="label" id="x_x">4</text>
 <g transform="translate(0, 0)">
 <g transform="translate(104, 162) rotate(-10.0)" class="key keypos-0">
 <rect rx="4" ry="4" x="-41" y="-38" width="82" height="77" class="key"/>
