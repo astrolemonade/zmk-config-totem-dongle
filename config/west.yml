@@ -1,12 +1,10 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
     - name: astrolemonade
       url-base: https://github.com/astrolemonade
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: astrolemonade
       revision: main
       import: app/west.yml
     - name: zmk-dongle-display-091-oled 
