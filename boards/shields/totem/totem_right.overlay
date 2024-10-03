@@ -1,10 +1,5 @@
-/*
- * Copyright (c) 2022 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
-
 #include "totem.dtsi"
+#include "fast_charge.dtsi"
 
 &default_transform {
     col-offset = <5>;

@@ -1,0 +1,8 @@
+#include "totem.dtsi"
+
+&kscan0 {
+    compatible = "zmk,kscan-mock";
+    columns = <0>;
+    rows = <0>;
+    events = <0>;
+};
