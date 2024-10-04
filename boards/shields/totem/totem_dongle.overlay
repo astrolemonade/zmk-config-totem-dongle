@@ -1,12 +1,12 @@
 #include "totem.dtsi"
 
-// TODO: this mapping shouldn't exist at all on the dongle, I don't know yet how to deactivate them
-&kscan0 {
-    col-gpios
-        = <&xiao_d 8 GPIO_ACTIVE_HIGH>
-        , <&xiao_d 9 GPIO_ACTIVE_HIGH>
-        , <&xiao_d 10 GPIO_ACTIVE_HIGH>
-        , <&xiao_d 5 GPIO_ACTIVE_HIGH>
-        , <&xiao_d 4 GPIO_ACTIVE_HIGH>
-        ;
+mock_kscan: mock_kscan_0 {
+    compatible = "zmk,kscan-mock";
+    columns = <0>;
+    rows = <0>;
+    events = <0>;
+};
+
+&default_layout {
+    kscan = <&mock_kscan>;
 };
