@@ -7,8 +7,8 @@
         rows = <0>;
         events = <0>;
     };
+    &default_layout {
+        kscan = <&mock_kscan>;
+    };
 };
 
-&default_layout {
-    kscan = <&mock_kscan>;
-};
