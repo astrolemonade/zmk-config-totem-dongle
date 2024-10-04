@@ -55,10 +55,10 @@
         Base {
             display-name = "Base";
             bindings = <
-        &trans  &trans  &trans  &trans     &trans    &trans  &trans        &trans  &trans  &trans
-        &trans  &trans  &trans  &trans     &trans    &trans  &trans        &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans    &trans  &trans        &trans  &trans  &trans  &trans
-                        &trans  &lt 1 TAB  &trans    &trans  &lt 2 ESCAPE  &trans
+           &kp Q           &kp W           &kp F               &kp P             &kp B        &kp J      &kp L              &kp U                &kp Y            &kp SEMICOLON
+           &hm LEFT_GUI A  &hm LEFT_ALT R  &hm LEFT_CONTROL S  &hm LEFT_SHIFT T  &kp G        &kp M      &hm RIGHT_SHIFT N  &hm RIGHT_CONTROL E  &hm RIGHT_ALT I  &hm RIGHT_WIN O
+&kp GRAVE  &kp Z           &kp X           &kp C               &kp D             &kp V        &kp K      &kp H              &kp COMMA            &kp PERIOD       &kp SLASH        &kp MINUS
+                                           &kp DELETE          &lt 1 TAB         &kp SPACE    &kp ENTER  &lt 2 ESCAPE       &kp BACKSPACE
             >;
         };
 
