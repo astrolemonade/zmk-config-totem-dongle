@@ -1,5 +1,5 @@
-#include "totem.dtsi"
 #include "totem_kscan0.dtsi"
+#include "totem.dtsi"
 #include "fast_charge.dtsi"
 
 &default_transform {
