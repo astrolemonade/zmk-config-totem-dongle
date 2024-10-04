@@ -71,7 +71,7 @@ layers:
   - END
   - PG UP
   - PAGE DOWN
-  - '@'
+  - '&studio_unlock'
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
