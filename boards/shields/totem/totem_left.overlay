@@ -1,5 +1,5 @@
-#include "totem_kscan0.dtsi"
 #include "totem.dtsi"
+#include "totem_kscan0.dtsi"
 #include "fast_charge.dtsi"
 
 &kscan0 {
@@ -10,4 +10,8 @@
         , <&xiao_d 9 GPIO_ACTIVE_HIGH>
         , <&xiao_d 8 GPIO_ACTIVE_HIGH>
         ;
+};
+
+&default_layout {
+    kscan = <&kscan0>;
 };
