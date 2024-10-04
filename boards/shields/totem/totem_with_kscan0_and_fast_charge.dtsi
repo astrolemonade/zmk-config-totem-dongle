@@ -1,3 +1,5 @@
+#include "totem.dtsi"
+
 / {
     kscan0: kscan_0 {
     compatible = "zmk,kscan-gpio-matrix";
@@ -10,5 +12,14 @@
         , <&xiao_d 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&xiao_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         ;
+    };
+};
+
+&gpio0 {
+    fastbatcharge: fast-battery-charge {
+        gpio-hog;
+        gpios = <13 GPIO_ACTIVE_HIGH>;
+        output-low;
+        line-name = "Fast Battery Charge";
     };
 };

@@ -1,6 +1,4 @@
-#include "totem.dtsi"
-#include "totem_kscan0.dtsi"
-#include "fast_charge.dtsi"
+#include "totem_with_kscan0_and_fast_charge.dtsi"
 
 &kscan0 {
     col-gpios
