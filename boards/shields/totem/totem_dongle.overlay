@@ -1,10 +1,12 @@
 #include "totem.dtsi"
 
-mock_kscan_0 {
-    compatible = "zmk,kscan-mock";
-    columns = <0>;
-    rows = <0>;
-    events = <0>;
+/ {
+    mock_kscan_0 {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
+    };
 };
 
 &default_layout {
