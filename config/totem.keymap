@@ -67,7 +67,7 @@
             bindings = <
                    &kp K_PREVIOUS     &none           &none           &none            &none     &none       &none           &none             &none         &none
                    &kp C_PLAY_PAUSE   &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &none     &none       &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI
-&kp C_VOLUME_DOWN  &kp C_VOLUME_DOWN  &kp C_NEXT      &kp DOWN_ARROW  &none            &none     &kp INSERT  &kp HOME        &kp END           &kp PG_UP     &kp PAGE_DOWN  &kp AT_SIGN
+&kp C_VOLUME_DOWN  &kp C_VOLUME_DOWN  &kp C_NEXT      &kp DOWN_ARROW  &none            &none     &kp INSERT  &kp HOME        &kp END           &kp PG_UP     &kp PAGE_DOWN  &studio_unlock
                                                       &trans          &trans           &trans    &trans      &trans          &trans
             >;
         };
