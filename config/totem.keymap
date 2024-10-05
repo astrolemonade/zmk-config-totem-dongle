@@ -13,13 +13,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-#define Base        0
-#define Nav         1
-#define Sym         2
-#define Fun         3
-#define Game        4
-#define Gameplus    5
-
 &mt {
     quick-tap-ms = <100>;
     global-quick-tap;
