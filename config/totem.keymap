@@ -63,17 +63,7 @@
            &kp Q           &kp W           &kp F               &kp P             &kp B          &kp J            &kp L             &kp U               &kp Y           &kp SEMICOLON
            &hm LEFT_GUI A  &hm LEFT_ALT R  &hm LEFT_CONTROL S  &hm LEFT_SHIFT T  &kp G          &kp M            &hm LEFT_SHIFT N  &hm LEFT_CONTROL E  &hm LEFT_ALT I  &hm LEFT_WIN O
 &kp GRAVE  &kp Z           &kp X           &kp C               &kp D             &kp V          &kp K            &kp H             &kp COMMA           &kp PERIOD      &kp SLASH       &kp MINUS
-                                           &lt 2 ESCAPE        &lt 1 TAB         &lt 3 SPACE    &lt 4 BACKSPACE  &lt 5 ENTER       &lt 6 DELETE
-            >;
-        };
-
-        L_Navigation {
-            display-name = "Navigation";
-            bindings = <
-       &none     &none           &none           &none            &none            &none  &none           &none             &none         &none
-       &kp HOME  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp PAGE_UP      &none  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI
-&none  &kp END   &none           &kp DOWN_ARROW  &none            &kp PAGE_DOWN    &none  &none           &none             &none         &none         &none
-                                 &none           &trans           &none            &none  &none           &none
+                                           &lt 1 ESCAPE        &lt 2 TAB         &lt 3 SPACE    &lt 4 BACKSPACE  &lt 5 ENTER       &lt 6 DELETE
             >;
         };
 
@@ -86,6 +76,16 @@
             >;
 
             label = "Numbers";
+        };
+
+        L_Navigation {
+            display-name = "Navigation";
+            bindings = <
+       &none     &none           &none           &none            &none            &none  &none           &none             &none         &none
+       &kp HOME  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp PAGE_UP      &none  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI
+&none  &kp END   &none           &kp DOWN_ARROW  &none            &kp PAGE_DOWN    &none  &none           &none             &none         &none         &none
+                                 &none           &trans           &none            &none  &none           &none
+            >;
         };
 
         L_Symbols {
