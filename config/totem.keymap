@@ -117,13 +117,24 @@
 
         R_Special {
             bindings = <
-       &none  &none  &none  &none  &none    &none  &none  &none  &none  &none
-       &none  &none   &none  &none  &none    &none  &none  &none  &none  &none
-&none  &none  &none   &none   &none   &none    &none  &none  &none  &none  &none  &studio_unlock
-                      &none   &none   &none     &none   &none   &trans
+       &none  &none  &none  &none  &none    &none  &none  &none   &none  &none
+       &none  &none  &none  &none  &none    &none  &none  &none   &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none   &none  &none  &studio_unlock
+                     &none  &none  &none    &none  &none  &trans
             >;
 
             label = "Special";
+        };
+
+        L_Gaming {
+            bindings = <
+       &kp TAB           &kp Q  &kp W       &kp E  &kp R        &trans  &trans  &trans  &trans  &trans
+       &kp LEFT_SHIFT    &kp A  &kp S       &kp D  &kp F        &trans  &trans  &trans  &trans  &trans
+&none  &kp LEFT_CONTROL  &kp Z  &kp X       &kp C  &kp V        &trans  &trans  &trans  &trans  &trans  &trans
+                                &kp ESCAPE  &none  &kp SPACE    &trans  &none   &trans
+            >;
+
+            label = "Gaming";
         };
     };
 };
