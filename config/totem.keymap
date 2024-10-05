@@ -117,9 +117,9 @@
 
         R_Special {
             bindings = <
-       &none  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-       &none  &none   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&none  &none  &none   &none   &none   &trans    &trans  &trans  &trans  &trans  &trans  &kp A
+       &none  &none  &none  &none  &none    &none  &none  &none  &none  &none
+       &none  &none   &none  &none  &none    &none  &none  &none  &none  &none
+&none  &none  &none   &none   &none   &none    &none  &none  &none  &none  &none  &studio_unlock
                       &none   &none   &none     &none   &none   &trans
             >;
 
