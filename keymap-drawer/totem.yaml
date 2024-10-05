@@ -315,3 +315,5 @@ layers:
 combos:
 - p: [21, 25]
   k: {t: L_Gaming, h: toggle}
+- p: [30, 9]
+  k: $$mdi:progress-download$$
