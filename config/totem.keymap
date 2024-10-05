@@ -60,10 +60,10 @@
         Default {
             display-name = "Default";
             bindings = <
-           &kp Q           &kp W           &kp F               &kp P             &kp B          &kp J            &kp L             &kp U               &kp Y           &kp SEMICOLON
-           &hm LEFT_GUI A  &hm LEFT_ALT R  &hm LEFT_CONTROL S  &hm LEFT_SHIFT T  &kp G          &kp M            &hm LEFT_SHIFT N  &hm LEFT_CONTROL E  &hm LEFT_ALT I  &hm LEFT_WIN O
-&kp GRAVE  &kp Z           &kp X           &kp C               &kp D             &kp V          &kp K            &kp H             &kp COMMA           &kp PERIOD      &kp SLASH       &kp MINUS
-                                           &lt 1 ESCAPE        &lt 2 TAB         &lt 3 SPACE    &lt 4 BACKSPACE  &lt 5 ENTER       &lt 6 DELETE
+           &kp Q           &kp W           &kp F               &kp P             &kp B          &kp J        &kp L             &kp U               &kp Y           &kp SEMICOLON
+           &hm LEFT_GUI A  &hm LEFT_ALT R  &hm LEFT_CONTROL S  &hm LEFT_SHIFT T  &kp G          &kp M        &hm LEFT_SHIFT N  &hm LEFT_CONTROL E  &hm LEFT_ALT I  &hm LEFT_WIN O
+&kp GRAVE  &kp Z           &kp X           &kp C               &kp D             &kp V          &kp K        &kp H             &kp COMMA           &kp PERIOD      &kp SLASH       &kp MINUS
+                                           &lt 1 ESCAPE        &lt 2 TAB         &lt 3 SPACE    &lt 4 ENTER  &lt 5 BACKSPACE   &lt 6 DELETE
             >;
         };
 
