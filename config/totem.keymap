@@ -55,64 +55,75 @@
         Default {
             display-name = "Default";
             bindings = <
-       &kp Q           &kp W           &kp F               &kp P             &kp B        &kp J      &kp L             &kp U               &kp Y           &kp SEMICOLON
-       &hm LEFT_GUI A  &hm LEFT_ALT R  &hm LEFT_CONTROL S  &hm LEFT_SHIFT T  &kp G        &kp M      &hm LEFT_SHIFT N  &hm LEFT_CONTROL E  &hm LEFT_ALT I  &hm LEFT_WIN O
-&none  &kp Z           &kp X           &kp C               &kp D             &kp V        &kp K      &kp H             &kp COMMA           &kp PERIOD      &kp SLASH       &none
-                                       &kp DELETE          &lt 1 TAB         &kp SPACE    &kp ENTER  &lt 2 ESCAPE      &kp BACKSPACE
+           &kp Q           &kp W           &kp F               &kp P             &kp B          &kp J            &kp L             &kp U               &kp Y           &kp SEMICOLON
+           &hm LEFT_GUI A  &hm LEFT_ALT R  &hm LEFT_CONTROL S  &hm LEFT_SHIFT T  &kp G          &kp M            &hm LEFT_SHIFT N  &hm LEFT_CONTROL E  &hm LEFT_ALT I  &hm LEFT_WIN O
+&kp GRAVE  &kp Z           &kp X           &kp C               &kp D             &kp V          &kp K            &kp H             &kp COMMA           &kp PERIOD      &kp SLASH       &kp MINUS
+                                           &lt 2 ESCAPE        &lt 1 TAB         &lt 3 SPACE    &lt 4 BACKSPACE  &lt 5 ENTER       &lt 6 DELETE
             >;
         };
 
-        Navigation {
+        L_Navigation {
             display-name = "Navigation";
             bindings = <
-       &none           &none           &none             &none            &none     &none   &none           &none             &none         &none
-       &kp LEFT_WIN    &kp LEFT_ALT    &kp LEFT_CONTROL  &kp LEFT_SHIFT   &none     &none   &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI
-&none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT_ARROW  &none     &none   &kp HOME        &kp END           &kp PAGE_UP   &kp PAGE_DOWN  &none
-                                       &trans            &trans           &trans    &trans  &trans          &trans
+       &none     &none           &none           &none            &none            &none  &none           &none             &none         &none
+       &kp HOME  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp PAGE_UP      &none  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI
+&none  &kp END   &none           &kp DOWN_ARROW  &none            &kp PAGE_DOWN    &none  &none           &none             &none         &none         &none
+                                 &none           &trans           &none            &none  &none           &none
             >;
         };
 
-        Symbols {
-            display-name = "Symbols";
+        L_Numbers {
             bindings = <
-       &kp LEFT_BRACE  &kp AMPERSAND    &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &none   &none           &none             &none         &none
-       &kp COLON       &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS           &none   &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN
-&none  &kp TILDE       &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp PIPE           &none   &none           &none             &none         &none         &none
-                                        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE     &trans  &trans          &trans
-            >;
-        };
-
-        Numbers {
-            bindings = <
-       &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8      &kp NUMBER_9  &kp RIGHT_BRACKET    &none   &none           &none             &none         &none
-       &kp SEMICOLON     &kp NUMBER_4  &kp NUMBER_5      &kp NUMBER_6  &kp EQUAL            &none   &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN
-&none  &kp GRAVE         &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp BACKSLASH        &none   &none           &none             &none         &none         &none
-                                       &kp SINGLE_QUOTE  &kp NUMBER_0  &kp MINUS            &trans  &trans          &trans
+                  &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_BRACKET    &none   &none           &none             &none         &none
+                  &kp SEMICOLON     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL            &none   &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN
+&kp SINGLE_QUOTE  &kp NUMBER_0      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH        &none   &none           &none             &none         &none         &none
+                                                  &trans        &none         &none                &trans  &none           &none
             >;
 
             label = "Numbers";
         };
 
-        Function {
+        L_Symbols {
+            display-name = "Symbols";
             bindings = <
-       &kp F12  &kp F7  &kp F8  &kp F9  &none     &none   &none           &none             &none         &none
-       &kp F11  &kp F4  &kp F5  &kp F6  &none     &none   &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN
-&none  &kp F10  &kp F1  &kp F2  &kp F3  &none     &none   &none           &none             &none         &none         &none
-                        &trans  &trans  &trans    &trans  &trans          &trans
+                   &kp LEFT_BRACE         &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE    &none  &none           &none             &none         &none
+                   &kp COLON              &kp DOLLAR       &kp PERCENT   &kp CARET             &kp PLUS           &none  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN
+&kp DOUBLE_QUOTES  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp PIPE           &none  &none           &none             &none         &none         &none
+                                                           &none         &none                 &trans             &none  &none           &none
+            >;
+        };
+
+        R_Function {
+            bindings = <
+       &none  &none  &none  &none  &none    &none   &kp F7  &kp F8  &kp F9  &kp F12
+       &none  &none  &none  &none  &none    &none   &kp F4  &kp F5  &kp F6  &kp F11
+&none  &none  &none  &none  &none  &none    &none   &kp F1  &kp F2  &kp F3  &kp F10  &none
+                     &none  &none  &none    &trans  &none   &none
             >;
 
             label = "Function";
         };
 
-        Media {
+        R_Media {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+       &none         &none         &none             &none           &none    &none       &none           &kp K_VOLUME_UP    &none            &none
+       &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &none       &kp C_PREVIOUS  &kp C_PLAY_PAUSE   &kp C_VOLUME_UP  &kp C_NEXT
+&none  &none         &none         &none             &none           &none    &kp C_STOP  &none           &kp C_VOLUME_DOWN  &none            &none       &none
+                                   &none             &none           &none    &none       &trans          &none
             >;
 
             label = "Media";
+        };
+
+        R_Special {
+            bindings = <
+       &none  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+       &none  &none   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&none  &none  &none   &none   &none   &trans    &trans  &trans  &trans  &trans  &trans  &kp A
+                      &none   &none   &none     &none   &none   &trans
+            >;
+
+            label = "Special";
         };
     };
 };
