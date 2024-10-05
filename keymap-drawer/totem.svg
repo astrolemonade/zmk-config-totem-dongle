@@ -534,13 +534,13 @@ path.combo {
 </a></g>
 <g transform="translate(665, 386) rotate(-30.0)" class="key keypos-35">
 <rect rx="4" ry="4" x="-41" y="-38" width="82" height="77" class="key"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:backspace"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:keyboard-return"/>
 <a href="#R_Function">
 <text x="0" y="34" class="key hold layer-activator"><tspan style="font-size: 62%">R_Funct…</tspan></text>
 </a></g>
 <g transform="translate(752, 350) rotate(-15.0)" class="key keypos-36">
 <rect rx="4" ry="4" x="-41" y="-38" width="82" height="77" class="key"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:keyboard-return"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-13" y="-13" height="26" width="26.0" class="key tap glyph mdi:backspace"/>
 <a href="#R_Media">
 <text x="0" y="34" class="key hold layer-activator"><tspan style="font-size: 71%">R_Media</tspan></text>
 </a></g>

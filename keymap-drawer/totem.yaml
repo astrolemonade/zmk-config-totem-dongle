@@ -36,8 +36,8 @@ layers:
   - {t: ESCAPE, h: L_Numbers}
   - {t: '$$mdi:keyboard-tab$$', h: Navigation}
   - {t: '$$mdi:keyboard-space$$', h: Symbols}
-  - {t: '$$mdi:backspace$$', h: R_Function}
-  - {t: '$$mdi:keyboard-return$$', h: R_Media}
+  - {t: '$$mdi:keyboard-return$$', h: R_Function}
+  - {t: '$$mdi:backspace$$', h: R_Media}
   - {t: '$$mdi:backspace-reverse-outline$$', h: R_Special}
   L_Numbers:
   - {t: '[', s: '{'}
