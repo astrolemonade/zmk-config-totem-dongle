@@ -79,10 +79,10 @@
 
         L_Numbers {
             bindings = <
-                  &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_BRACKET    &none   &none           &none             &none         &none
-                  &kp SEMICOLON     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL            &none   &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN
-&kp SINGLE_QUOTE  &kp NUMBER_0      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH        &none   &none           &none             &none         &none         &none
-                                                  &trans        &none         &none                &trans  &none           &none
+                  &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_BRACKET    &none  &none           &none             &none         &none
+                  &kp SEMICOLON     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL            &none  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN
+&kp SINGLE_QUOTE  &kp NUMBER_0      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH        &none  &none           &none             &none         &none         &none
+                                                  &trans        &none         &none                &none  &none           &none
             >;
 
             label = "Numbers";
@@ -111,9 +111,9 @@
 
         R_Media {
             bindings = <
-       &none         &none         &none             &none           &none    &none       &none           &kp K_VOLUME_UP    &none            &none
-       &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &none       &kp C_PREVIOUS  &kp C_PLAY_PAUSE   &kp C_VOLUME_UP  &kp C_NEXT
-&none  &none         &none         &none             &none           &none    &kp C_STOP  &none           &kp C_VOLUME_DOWN  &none            &none       &none
+       &none         &none         &none             &none           &none    &none       &none           &kp C_VOLUME_UP    &none       &none
+       &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &none       &kp C_PREVIOUS  &kp C_PLAY_PAUSE   &kp C_NEXT  &none
+&none  &none         &none         &none             &none           &none    &kp C_STOP  &none           &kp C_VOLUME_DOWN  &none       &none  &none
                                    &none             &none           &none    &none       &trans          &none
             >;
 
