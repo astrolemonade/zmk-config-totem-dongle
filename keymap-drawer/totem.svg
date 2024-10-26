@@ -1771,9 +1771,9 @@ path.combo {
 <rect rx="4" ry="4" x="-41" y="-38" width="82" height="77" class="key none"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-13" y="-13" height="26" width="26.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
-<g transform="translate(357, 337)" class="key none keypos-32">
-<rect rx="4" ry="4" x="-41" y="-38" width="82" height="77" class="key none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-13" y="-13" height="26" width="26.0" class="key none tap glyph mdi:minus-circle-outline"/>
+<g transform="translate(357, 337)" class="key enter keypos-32">
+<rect rx="4" ry="4" x="-41" y="-38" width="82" height="77" class="key enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-13" y="-13" height="26" width="26.0" class="key enter tap glyph mdi:keyboard-return"/>
 </g>
 <g transform="translate(451, 350) rotate(15.0)" class="key none keypos-33">
 <rect rx="4" ry="4" x="-41" y="-38" width="82" height="77" class="key none"/>
